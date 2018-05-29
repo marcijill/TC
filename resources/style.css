@@ -13,15 +13,12 @@ body {
     border-bottom: 1px solid seashell;
     align-items: center;
     background-color: black;
-
-
-
+    position: fixed;
   }
 
   .header img {
     height: 50px;
     margin-left: 10px;
-
   }
 
   .header p {
@@ -36,7 +33,6 @@ body {
     .mission {
       display: flex;
       align-items: center;
-
     }
 
     .Main1 .mission {
@@ -58,3 +54,92 @@ body {
      .mission h2 {
        margin-bottom: -20px;
      }
+
+     .Main2 {
+       display: flex;
+       flex-wrap: wrap;
+       width: 1000px;
+       justify-content: center;
+       margin: auto;
+     }
+
+     .Heading {
+       display: flex;
+       flex-direction: column;
+       justify-content: center;
+       text-align: center;
+       margin-left: 200px;
+       margin-right: 200px;
+      }
+
+      .berryblitz {
+        display: flex;
+        flex-direction: column;
+        margin: 10px;
+      }
+     .SpicedRumTea {
+       display: flex;
+       flex-direction: column;
+       margin: 10px;
+     }
+
+     .donuts {
+       display: flex;
+       flex-direction: column;
+       margin: 10px;
+     }
+
+     .MyrtleAveTea {
+       display: flex;
+       flex-direction: column;
+       margin: 10px;
+     }
+
+     .BedfordBizarreTea {
+       display: flex;
+       flex-direction: column;
+       margin: 10px;
+     }
+
+     .Main2 img {
+       width: 300px;
+       height: 200px;
+     }
+
+     .Main3 {
+       background-image: url("../resources/images/img-locations-background.jpg");
+       height: 500px;
+       background-repeat: no-repeat;
+       background-position: center;
+       display: flex;
+       justify-content: center;
+       flex-wrap: wrap;
+       align-self: center;
+       margin: auto;
+     }
+
+     .downtown,
+     .EastBayside,
+     .Oakdale {
+       background-color: black;
+       width: 300px;
+       height: 300px;
+       opacity: 1;
+       margin: -25px 20px 40px 20px;
+       display: flex;
+       flex-direction: column;
+     }
+
+     .locations {
+       margin: auto 500px 15px 500px;
+      }
+
+      .copyright {
+        text-align: left;
+        margin-left: 20px;
+      }
+
+      .contact {
+        height: 200px;
+
+      }
